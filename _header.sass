@@ -1,6 +1,9 @@
 header
     padding: 24px 0
     background-color: #212328
+    position: fixed
+    right: 0
+    left: 0
     .imgbox
         width: 140px
         img
@@ -13,3 +16,7 @@ header
             &:hover
                 cursor: pointer
                 color: #eab114
+
+    @media screen and ( max-width: 992px )
+        nav
+            display: none

@@ -3,7 +3,7 @@
     background-position: center center
     background-size: cover
     .box
-        height: 700px
+        height: 600px
         .textbox
             h1
                 font-size: 40px
@@ -23,3 +23,11 @@
                 &:hover
                     cursor: pointer
                     background-color: #d9aa00
+
+    @media screen and ( max-width: 768px )
+        .box
+            .textbox
+                h1
+                    font-size: 30px
+                h3
+                    font-size: 65px

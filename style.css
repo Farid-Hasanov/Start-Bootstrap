@@ -3,16 +3,20 @@ body {
   font-weight: 500;
 }
 
-a {
-  color: orange;
+.imgbox img {
+  width: 100%;
 }
-a:hover {
-  color: black;
+
+section {
+  padding: 100px 0;
 }
 
 header {
   padding: 24px 0;
   background-color: #212328;
+  position: fixed;
+  right: 0;
+  left: 0;
 }
 header .imgbox {
   width: 140px;
@@ -29,6 +33,11 @@ header nav a:hover {
   cursor: pointer;
   color: #eab114;
 }
+@media screen and (max-width: 992px) {
+  header nav {
+    display: none;
+  }
+}
 
 #welcome {
   background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
@@ -36,7 +45,7 @@ header nav a:hover {
   background-size: cover;
 }
 #welcome .box {
-  height: 700px;
+  height: 600px;
 }
 #welcome .box .textbox h1 {
   font-size: 40px;
@@ -60,4 +69,52 @@ header nav a:hover {
 #welcome .box .textbox .btn:hover {
   cursor: pointer;
   background-color: #d9aa00;
+}
+@media screen and (max-width: 768px) {
+  #welcome .box .textbox h1 {
+    font-size: 30px;
+  }
+  #welcome .box .textbox h3 {
+    font-size: 65px;
+  }
+}
+
+#services .textbox h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#services .textbox h3 {
+  font-size: 20px;
+  color: #6c757d;
+  margin: 20px 0 50px;
+}
+#services .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#services .textbox p {
+  font-size: 20px;
+  color: #798796;
+  line-height: 1.4;
+}
+#services .box {
+  display: flex;
+  justify-content: center;
+}
+#services .box .icon {
+  width: 130px;
+  height: 130px;
+  font-size: 65px;
+  background-color: #ffc800;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  #services .textbox p {
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=style.css.map */

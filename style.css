@@ -10,21 +10,54 @@ a:hover {
   color: black;
 }
 
-#demo {
-  padding: 20px 0;
+header {
+  padding: 24px 0;
+  background-color: #212328;
 }
-#demo .box {
-  width: 200px;
-  height: 200px;
-  background-color: #5183a7;
+header .imgbox {
+  width: 140px;
 }
-#demo .box .minibox {
-  width: 100px;
-  height: 100px;
-  background-color: #345783;
+header .imgbox img {
+  cursor: pointer;
 }
-#demo .box .minibox h1 {
-  font-size: 20px;
+header nav a {
+  font-size: 18px;
+  margin-right: 30px;
+  color: white;
+}
+header nav a:hover {
+  cursor: pointer;
+  color: #eab114;
+}
+
+#welcome {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+#welcome .box {
+  height: 700px;
+}
+#welcome .box .textbox h1 {
+  font-size: 40px;
+  color: white;
+}
+#welcome .box .textbox h3 {
+  font-size: 80px;
   font-weight: 700;
   color: white;
+  margin: 30px 0 60px 0;
+}
+#welcome .box .textbox .btn {
+  padding: 18px 50px;
+  background-color: #ffc800;
+}
+#welcome .box .textbox .btn a {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+#welcome .box .textbox .btn:hover {
+  cursor: pointer;
+  background-color: #d9aa00;
 }/*# sourceMappingURL=style.css.map */

@@ -20,6 +20,7 @@ header {
   position: fixed;
   right: 0;
   left: 0;
+  z-index: 1;
 }
 header .imgbox {
   width: 140px;
@@ -170,4 +171,44 @@ header nav a:hover {
 #portfolio .box .textbox h4 {
   font-size: 18px;
   color: #7a7d9d;
+}
+
+#about h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#about h3 {
+  font-size: 20px;
+  color: #6d7d8b;
+  margin: 20px 0 60px;
+}
+#about .box {
+  display: flex;
+  margin-bottom: 100px;
+}
+#about .box .textbox {
+  width: 430px;
+}
+#about .box .textbox h2, #about .box .textbox h4 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-block: 10px;
+}
+#about .box .textbox p {
+  font-size: 19px;
+  color: #80888f;
+  line-height: 1.4;
+}
+#about .box .imgbox {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin: 0 50px;
+  border: 7px solid #e9ecef;
+}
+#about .left {
+  margin-left: 80px;
+}
+#about .right {
+  margin-right: 80px;
 }/*# sourceMappingURL=style.css.map */

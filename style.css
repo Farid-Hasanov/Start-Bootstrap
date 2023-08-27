@@ -239,4 +239,17 @@ header nav a:hover {
   #about .box {
     margin: 0 10px 150px 0;
   }
+}
+@media screen and (max-width: 1200px) {
+  #about .box {
+    margin: 0 110px 100px 100px;
+  }
+  #about .box .textbox {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #about .box {
+    margin: 0 30px 100px 0;
+  }
 }/*# sourceMappingURL=style.css.map */

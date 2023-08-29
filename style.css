@@ -253,6 +253,9 @@ header nav a:hover {
   }
 }
 @media screen and (max-width: 992px) {
+  #about .box {
+    margin: 0 15px 100px;
+  }
   #about .box .textbox {
     width: 215px;
   }
@@ -260,8 +263,27 @@ header nav a:hover {
     width: 100px;
     height: 100px;
   }
-  #about .minibox .story {
+  #about .minibox {
+    padding: 0 20px;
+  }
+  #about .minibox h5 {
+    font-size: 15px;
+  }
+  #about .story {
     width: 100px;
     height: 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #about .box {
+    align-items: flex-start;
+    flex-direction: row-reverse;
+  }
+  #about .box .imgbox {
+    width: 80px;
+    height: 80px;
+  }
+  #about .right {
+    flex-direction: row;
   }
 }/*# sourceMappingURL=style.css.map */

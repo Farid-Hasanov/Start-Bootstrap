@@ -46,7 +46,6 @@
         background-color: #ffc800
         color: #ffff
 
-    
     @media screen and ( max-width: 1400px )
         .box
             margin: 0 10px 150px 0
@@ -58,16 +57,30 @@
                 width: 300px
             .imgbox
                 width: 150px
-                height: 150px  
+                height: 150px
 
     @media screen and ( max-width: 992px )
         .box
+            margin: 0 15px 100px
             .textbox
                 width: 215px
             .imgbox
                 width: 100px
                 height: 100px
         .minibox
-            .story
-                width: 100px
-                height: 100px
+            padding: 0 20px
+            h5
+                font-size: 15px
+        .story
+            width: 100px
+            height: 100px
+
+    @media screen and ( max-width: 768px )
+        .box
+            align-items: flex-start
+            flex-direction: row-reverse
+            .imgbox
+                width: 80px
+                height: 80px
+        .right
+            flex-direction: row

@@ -194,6 +194,7 @@ header nav a:hover {
 #about .box .textbox {
   width: 400px;
   margin: 0 20px;
+  text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
   font-size: 30px;
@@ -215,13 +216,17 @@ header nav a:hover {
 #about .right {
   margin: 0 90px 150px 0;
 }
-#about .minibox {
+#about .add {
+  display: flex;
+  justify-content: center;
+}
+#about .add .minibox {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 40px;
 }
-#about .minibox h5 {
+#about .add .minibox h5 {
   font-size: 20px;
   font-weight: 700;
   line-height: 1.4;
@@ -278,12 +283,30 @@ header nav a:hover {
   #about .box {
     align-items: flex-start;
     flex-direction: row-reverse;
+    margin-bottom: 70px;
+  }
+  #about .box .textbox {
+    width: 400px;
+    text-align: start;
   }
   #about .box .imgbox {
-    width: 80px;
-    height: 80px;
+    width: 140px;
+    height: auto;
+    margin: 0;
   }
   #about .right {
     flex-direction: row;
+  }
+  #about .right .textbox {
+    text-align: start;
+  }
+  #about .add {
+    justify-content: flex-start;
+  }
+  #about .add .story {
+    width: 130px;
+    height: 130px;
+    padding: 0 30px;
+    margin-left: 10px;
   }
 }/*# sourceMappingURL=style.css.map */

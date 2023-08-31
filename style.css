@@ -326,4 +326,65 @@ header nav a:hover {
   #about .add .story h5 {
     font-size: 15px;
   }
+}
+
+#team {
+  background-color: #f8f9fa;
+}
+#team h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#team h3 {
+  font-size: 20px;
+  color: #788194;
+  margin: 20px 0 60px;
+}
+#team .box {
+  display: flex;
+  justify-content: center;
+}
+#team .box .imgbox {
+  border: 8px solid #dfe0e1;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+}
+#team .textbox {
+  text-align: center;
+}
+#team .textbox h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 20px;
+}
+#team .textbox h4 {
+  font-size: 18px;
+  color: #767f91;
+  margin: 10px 0;
+}
+#team ul {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#team ul li {
+  background-color: #292d31;
+  border-radius: 30px;
+  color: white;
+  width: 40px;
+  height: 40px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#team ul li:hover {
+  background-color: #424649;
+  cursor: pointer;
+}
+#team .wid {
+  width: 750px;
+  line-height: 1.4;
+  margin-top: 15px;
 }/*# sourceMappingURL=style.css.map */

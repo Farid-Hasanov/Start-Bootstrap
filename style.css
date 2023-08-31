@@ -309,4 +309,21 @@ header nav a:hover {
     padding: 0 30px;
     margin-left: 10px;
   }
+}
+@media screen and (max-width: 576px) {
+  #about .text-center h1 {
+    font-size: 40px;
+  }
+  #about .box .imgbox {
+    width: 100px;
+    height: auto;
+  }
+  #about .add .story {
+    width: 100px;
+    height: 100px;
+    padding: 0 15px;
+  }
+  #about .add .story h5 {
+    font-size: 15px;
+  }
 }/*# sourceMappingURL=style.css.map */

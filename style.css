@@ -387,4 +387,54 @@ header nav a:hover {
   width: 750px;
   line-height: 1.4;
   margin-top: 15px;
+}
+@media screen and (max-width: 992px) {
+  #team .box .imgbox {
+    height: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  #team ul {
+    margin-bottom: 40px;
+  }
+  #team .wid {
+    margin-top: 0;
+  }
+}
+
+#logo {
+  padding: 60px 0;
+}
+#logo .box .imgbox {
+  width: 120px;
+}
+#logo .box .imgbox img {
+  cursor: pointer;
+}
+#logo .box .mcr {
+  width: 200px;
+}
+#logo .box .fb {
+  width: 160px;
+}
+@media screen and (max-width: 768px) {
+  #logo .box .imgbox {
+    margin: 15px 0;
+  }
+}
+
+#contact {
+  background-image: url("https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png");
+  background-color: #212529;
+  background-position: center center;
+}
+#contact h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+#contact h3 {
+  font-size: 20px;
+  color: #5f6e76;
 }/*# sourceMappingURL=style.css.map */

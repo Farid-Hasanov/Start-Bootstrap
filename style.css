@@ -437,4 +437,34 @@ header nav a:hover {
 #contact h3 {
   font-size: 20px;
   color: #5f6e76;
+}
+#contact .add {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#contact .add input {
+  margin: 12px 0;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+#contact .textbox {
+  display: flex;
+  margin-top: 60px;
+}
+#contact .textbox textarea {
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 14px;
+}
+#contact .btn {
+  padding: 19px 50px;
+  background-color: #b28f0e;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  opacity: 0.7;
+  margin-top: 35px;
 }/*# sourceMappingURL=style.css.map */

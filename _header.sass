@@ -9,6 +9,19 @@ header
         width: 140px
         img
             cursor: pointer
+    .btn
+        color: #ffff
+        display: flex
+        display: none
+        border: 1px solid #2e3236
+        opacity: 0.6
+        font-weight: 700
+        font-size: 15px
+        h5
+            cursor: pointer
+        .icon
+            cursor: pointer
+            margin-left: 8px
     nav
         a
             font-size: 18px
@@ -19,5 +32,8 @@ header
                 color: #eab114
 
     @media screen and ( max-width: 992px )
-        nav
-            display: none
+        .menu
+            .btn
+                display: flex
+            nav
+                display: none

@@ -138,7 +138,15 @@ header nav a:hover {
 }
 @media screen and (max-width: 768px) {
   #services .textbox p {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #services .textbox {
+    padding: 0 30px;
+  }
+  #services .textbox h1 {
+    font-size: 40px;
   }
 }
 
@@ -487,19 +495,25 @@ header nav a:hover {
   opacity: 0.7;
   margin-top: 35px;
 }
+@media screen and (max-width: 576px) {
+  #contact .col-md-6 {
+    padding: 40px;
+  }
+}
 
 footer {
   padding: 20px 0;
 }
-footer .menu h1, footer .menu a {
+footer h1 {
   font-size: 18px;
-  color: #36363d;
+  color: #5a5c5e;
+  margin: 15px 0;
 }
-footer .menu ul {
+footer ul {
   display: flex;
   justify-content: center;
 }
-footer .menu ul li .icon {
+footer ul li .icon {
   font-size: 15px;
   width: 40px;
   height: 40px;
@@ -511,13 +525,18 @@ footer .menu ul li .icon {
   align-items: center;
   margin: 0 10px;
 }
-footer .menu ul li .icon:hover {
+footer ul li .icon:hover {
   background-color: #424649;
   cursor: pointer;
 }
-footer .menu a:hover, footer .menu span:hover {
+footer h2, footer h3 {
+  color: #5a5c5e;
+  font-size: 18px;
+  margin: 15px 0;
+}
+footer h2:hover, footer h3:hover {
   cursor: pointer;
 }
-footer .menu span {
-  margin: 0 20px;
+footer h2 {
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
